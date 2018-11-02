@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <title>Al Hayah Hospital </title>
     <link rel="stylesheet" type="text/css" href="./style.css"/>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+
   </head>
   <body> 
       <div id="back">
@@ -53,6 +58,27 @@
       // You can also require other files to run in this process
       require('./renderer.js')
       
+    </script>
+    <script>
+   
+    $(document).ready(function(){
+    $('#goRight').on('click', function(){
+      $('#slideBox').animate({
+        'marginLeft' : '0'
+      });
+      $('.topLayer').animate({
+        'marginLeft' : '100%'
+      });
+    });
+    $('#goLeft').on('click', function(){
+      $('#slideBox').animate({
+        'marginLeft' : '50%'
+      });
+      $('.topLayer').animate({
+        'marginLeft': '0'
+      });
+    });
+  });
     </script>
    
    
