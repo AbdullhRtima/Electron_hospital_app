@@ -13,7 +13,7 @@ body {
   right: 0;
   width: 50%;
   height: 100%;
-  background: #3498db url(https://download.unsplash.com/photo-1429041966141-44d228a42775);
+  background: #3498db url(./public/img/arms-care-check-905874.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -23,7 +23,7 @@ body {
   left: 0;
   width: 50%;
   height: 100%;
-  background: #e74c3c url(https://download.unsplash.com/photo-1428279148693-1cf2163ed67d);
+  background: #e74c3c url(./public/img/arms-care-check-905874.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
