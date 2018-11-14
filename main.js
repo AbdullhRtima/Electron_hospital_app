@@ -24,7 +24,10 @@ function createWindow () {
     mainWindow = null
   })
 }
-
+exports.openWindow = (filename)=>{
+  let win  = new BrowserWindow({width : 800 , height : 800})
+  win.loadURL (`file://${__dirname}/`+filename+`.html`)
+}
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.

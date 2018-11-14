@@ -6,14 +6,12 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-
-
 .backRight {
   position: absolute;
   right: 0;
   width: 50%;
   height: 100%;
-  background: #3498db url(./public/img/arms-care-check-905874.jpg);
+  background: #3498db url(./public/img/bed-clinic-empty-236380.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
