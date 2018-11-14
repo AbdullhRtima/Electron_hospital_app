@@ -7,5 +7,8 @@ login.addEventListener('click',() => {
     var window = remote.getCurrentWindow()
     main.openWindow('p1')
     window.close()
+    console.log('successed ')
+  
+    
 },false)
-document.body.appendChild(login)
+document.body.appendChild(login ,username ,password )
